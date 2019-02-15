@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image "127.0.0.1:maven"
+            image "maven"
         }
     }
     stages {
