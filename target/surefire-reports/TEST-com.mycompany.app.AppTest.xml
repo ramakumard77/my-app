@@ -59,4 +59,5 @@
     <property name="java.class.version" value="52.0"/>
   </properties>
   <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.AppTest" time="0.006"/>
+  <testcase name="shouldKeyWithTrue" classname="com.mycompany.app.AppTest" time="0.008"/>
 </testsuite>
