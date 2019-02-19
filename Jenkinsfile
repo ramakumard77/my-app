@@ -15,7 +15,7 @@ pipeline {
             steps { 
                 sh "mvn test"
                 script {
-                    def testResults = findFiles(glob: '**/*.xml')
+                    def testResults = findFiles(glob: '*.xml')
                     for(xml in testResults) {
                         touch xml.getPath()
                     }
@@ -31,7 +31,7 @@ pipeline {
     
     post {
         always {
-            junit '**/*.xml'
+            junit '*.xml'
         }
     }
 }
