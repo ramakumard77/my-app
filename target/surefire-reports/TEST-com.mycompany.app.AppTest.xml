@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.069" tests="2" errors="0" skipped="0" failures="0">
+<testsuites>
+ <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.069" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -60,4 +61,5 @@
   </properties>
   <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.AppTest" time="0.006"/>
   <testcase name="shouldKeyWithTrue" classname="com.mycompany.app.AppTest" time="0.008"/>
-</testsuite>
+ </testsuite>
+</testsuites>
